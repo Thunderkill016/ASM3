@@ -1,0 +1,8 @@
+@media (max-width: 991px) {
+  #nav-bar img {
+    display: none;
+  }
+  #project .user-lamp {
+    display: inline-block;
+  }
+}

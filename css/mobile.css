@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+  #nav-bar li {
+    border: none !important;
+  }
+  #certificate .border-end {
+    border: none !important;
+  }
+  .prf {
+    display: flex;
+    border-top: 1px solid #ffba00;
+    width: 65rem;
+    padding-top: 3rem;
+    margin-top: 0 !important;
+    margin-bottom: 2rem !important;
+  }
+  #certificate .dbi {
+    margin-bottom: 2rem !important;
+  }
+  .subject,
+  .user-lamp {
+    display: block !important;
+  }
+  .subject span {
+    margin: 0.5rem !important;
+  }
+  .user-lamp p {
+    margin: 0.5rem !important;
+  }
+  #footer span {
+    display: none !important;
+  }
+}

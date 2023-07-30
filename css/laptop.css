@@ -1,0 +1,754 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container-certificate {
+  width: 1090px;
+  margin: 0 164px;
+  display: block;
+  padding: 30px 50px;
+}
+ul {
+  position: relative;
+  list-style: none;
+}
+
+/* ------------------------------------------------------BANNER---------------------------------------------------------------------------------- */
+
+#banner {
+  height: 532px;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.5),
+      rgba(34, 34, 34, 0.5)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.banner-text {
+  transform: translate(0, 115px);
+}
+
+/*---------------------------------------------------------------- NAVBAR--------------------------------------------------------------------------- */
+#nav-bar img {
+  width: 29px;
+  height: 30px;
+  object-fit: cover;
+  transform: scale(5, 5);
+}
+i {
+  color: #ff9f55;
+}
+/* #nav-bar img {
+  width: 155px;
+  height: 165px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+.container-navbar {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  height: 43px;
+}
+.container-navbar a {
+  color: #313030;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: x-small;
+  border-left: 2px solid #e6e1e1;
+}
+.container-navbar a:last-child {
+  border-right: 2px solid #e6e1e1;
+}
+.container-navbar a:nth-child(2) {
+  border-right: 2px solid #e6e1e1;
+}
+.navbar-img {
+  position: absolute;
+  top: -88px;
+  right: 0px;
+  left: 0px;
+}
+.navbar-img img {
+  width: 155px;
+  height: 165px;
+  object-fit: cover;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+.navbar-text {
+  padding: 0 90px;
+  text-transform: none;
+  font-weight: 100;
+}
+.navbar-text h2 {
+  font-weight: 100;
+  font-size: large;
+}
+.navbar-text p {
+  color: #ccc;
+  font-size: xx-small;
+}
+ */
+
+/*-------------------------------------------------------------- Information Personal--------------------------------------------------------------- */
+.pt-6 {
+  padding-top: 6rem !important;
+}
+.mt-6 {
+  margin-top: 5rem !important;
+}
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+.hide {
+  display: none !important;
+}
+/* .container-about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 420px;
+}
+#target {
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: left;
+  background-color: #f1f0f0;
+  padding: 0 40px;
+}
+#target h1 {
+  padding-top: 100px;
+  font-weight: 100;
+}
+#target p {
+  padding-top: 50px;
+  font-size: smaller;
+  color: #777373;
+  line-height: 20px;
+}
+#personal-info {
+  display: grid;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: left;
+  padding: 0 40px;
+  background-color: #e5e2e2;
+}
+
+#personal-info h1 {
+  padding-top: 100px;
+  font-weight: 100;
+}
+#personal-info ul {
+  padding-top: 50px;
+  padding-left: 0;
+  font-size: smaller;
+  list-style: none;
+  line-height: 25px;
+}
+.info {
+  color: #777373;
+}
+.mt-40 span {
+  color: #000;
+}
+#personal-info .icon {
+  padding-top: 20px;
+} */
+
+/*---------------------------------------------------------------------- Job----------------------------------------------------------------------- */
+
+.show-more {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.job-information:hover {
+  box-shadow: 8px 5px 5px #e9ecef;
+}
+/* .container-job {
+  margin-bottom: 30px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 350px);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+} */
+
+/*------------------------------------------------------------ KINH NGHIEM -------------------------------------------------------------------------*/
+.bg-orange {
+  background-color: rgb(255, 119, 0) !important;
+}
+.experience li {
+  position: relative;
+}
+.experience li::before {
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 119, 0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0.4rem;
+  left: -1.5rem;
+}
+/* .kinh-nghiem {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 70px 30px;
+}
+.kinh-nghiem h2 {
+  font-weight: 100;
+  padding-right: 50px;
+}
+.kinh-nghiem ul {
+  padding-left: 26px;
+  font-size: small;
+  line-height: 20px;
+}
+.kinh-nghiem li {
+  padding-top: 50px;
+}
+.kinh-nghiem h4 {
+  font-weight: normal;
+  font-size: small;
+  line-height: 1.5;
+}
+.kinh-nghiem p {
+  color: #979595;
+  padding-top: 10px;
+}
+.kinh-nghiem h4 span {
+  background-color: rgb(255, 119, 0);
+  color: white;
+  border-radius: 6px;
+  padding: 3px 10px 3px 10px;
+  font-size: 10px;
+}
+.kinh-nghiem li em {
+  color: #979595;
+}
+.ic-toolbox:before {
+  font-size: 40px;
+  display: flex;
+  position: absolute;
+  top: 54px;
+  right: 54px;
+}
+.kinh-nghiem ul:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 0;
+  background-color: rgb(255, 119, 0);
+  top: 54px;
+  border-radius: 50%;
+} */
+
+/* -----------------------------------------------------------------HỌC VẤN--------------------------------------------------------------------- */
+.education li {
+  position: relative;
+}
+.education li::before {
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 119, 0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0.4rem;
+  left: -1.5rem;
+}
+/* .hoc-van {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 70px 30px;
+  height: 648px;
+}
+.hoc-van h2 {
+  font-weight: 100;
+  padding-right: 50px;
+}
+.hoc-van ul {
+  padding-left: 26px;
+  font-size: small;
+  line-height: 20px;
+}
+
+.hoc-van li {
+  padding-top: 50px;
+}
+.hoc-van h4 {
+  font-weight: normal;
+  font-size: small;
+  line-height: 1.5;
+}
+.hoc-van p {
+  color: #979595;
+  padding-top: 10px;
+}
+.hoc-van li em {
+  color: #979595;
+}
+.ic-pencil:before {
+  font-size: 40px;
+  display: flex;
+  position: absolute;
+  top: 54px;
+  right: 54px;
+}
+.hoc-van ul:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 0;
+  background-color: rgb(255, 119, 0);
+  top: 54px;
+  border-radius: 50%;
+} */
+
+/*---------------------------------------------------------------------- Hoat Dong------------------------------------------------------------------ */
+.activity li {
+  position: relative;
+}
+.activity li::before {
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 119, 0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0.4rem;
+  left: -1.5rem;
+}
+/* .hoat-dong {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 70px 30px;
+  height: 648px;
+}
+.hoat-dong h2 {
+  font-weight: 100;
+  padding-right: 50px;
+}
+.hoat-dong ul {
+  padding-left: 26px;
+  font-size: small;
+  line-height: 20px;
+}
+
+.hoat-dong li {
+  padding-top: 50px;
+}
+.hoat-dong h4 {
+  font-weight: normal;
+  font-size: small;
+  line-height: 1.5;
+}
+.hoat-dong p {
+  color: #979595;
+  padding-top: 10px;
+}
+.hoat-dong li em {
+  color: #979595;
+}
+.hoat-dong ul:after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 0;
+  background-color: rgb(255, 119, 0);
+  top: 54px;
+  border-radius: 50%;
+} */
+
+/*---------------------------------------------------------------- SO THICH-------------------------------------------------------------------------- */
+.fs {
+  font-size: 2.8rem !important;
+}
+.py-3-5 {
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.7rem !important;
+}
+.px-3-5 {
+  padding-left: 1.2rem !important;
+  padding-right: 1.2rem !important;
+}
+.px-2-5 {
+  padding-left: 0.8rem !important;
+  padding-right: 0.8rem !important;
+}
+.border-orange {
+  border-color: rgb(255, 119, 0) !important;
+}
+/* .so-thich {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 70px 30px;
+  height: 536px;
+}
+
+.so-thich h2 {
+  font-weight: 100;
+  padding-right: 50px;
+}
+
+.so-thich-icon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 25px;
+  padding: 30px 0;
+}
+p {
+  position: relative;
+}
+.so-thich-icon p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.so-thich-icon p::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  right: 9px;
+  top: -15px;
+  background-color: white;
+  border: 2px solid #ff9f55;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.so-thich-text {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: small;
+  text-align: center;
+}
+
+.ic-telescope:before {
+  font-size: 40px;
+  display: flex;
+  position: absolute;
+  top: 54px;
+  right: 54px;
+} */
+
+/*------------------------------------------------------------------- NGON NGU--------------------------------------------------------------------- */
+.w-15 {
+  width: 15% !important;
+}
+/* .ngon-ngu {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 70px 30px;
+  height: 536px;
+}
+.ngon-ngu h2 {
+  font-weight: 100;
+  padding-right: 50px;
+}
+
+.ngon-ngu p {
+  font-size: small;
+  margin-bottom: 0;
+}
+.ngon-ngu .a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ngon-ngu span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.a span:last-child {
+  background: #e5e2e2;
+}
+.b span:nth-child(+ n + 3) {
+  background: #e5e2e2;
+}
+.ic-mic:before {
+  font-size: 40px;
+  display: flex;
+  position: absolute;
+  top: 54px;
+  right: 54px;
+} */
+
+/*--------------------------------------------------------------------- KY NANG-------------------------------------------------------------------- */
+
+/* .ky-nang {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 70px 30px;
+}
+.ky-nang h2 {
+  font-weight: 100;
+  padding-right: 50px;
+}
+.ky-nang p {
+  font-size: small;
+  margin-bottom: 0;
+}
+.ky-nang div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ky-nang span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.h span:last-child {
+  background: #e5e2e2;
+}
+.j span:nth-child(n + 4) {
+  background: #e5e2e2;
+}
+.n span:nth-child(n + 4) {
+  background: #e5e2e2;
+}
+.b span:nth-child(n + 3) {
+  background: #e5e2e2;
+}
+.ic-tools-2:before {
+  font-size: 40px;
+  display: flex;
+  position: absolute;
+  top: 54px;
+  right: 54px;
+} */
+
+/*----------------------------------------------------------------------------- CHUNG CHI-------------------------------------------------------------- */
+
+/* .container h1 {
+  font-weight: 100;
+}
+.certificate-first {
+  display: flex;
+  border-bottom: 2px solid #d6c08d;
+  width: 65rem;
+}
+.certificate-first img {
+  width: 200px;
+  height: fit-content;
+}
+.certificate-a {
+  display: flex;
+  padding: 40px 0;
+}
+.certificate-a div {
+  padding: 0 30px;
+  width: max-content;
+}
+.certificate-a div h3 {
+  font-size: small;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+.certificate-a div p {
+  line-height: 20px;
+  font-size: small;
+  font-weight: 200;
+  color: #979595;
+}
+.certificate-b {
+  display: flex;
+  padding: 40px 40px;
+  position: relative;
+}
+.certificate-b::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  top: 40px;
+  bottom: 40px;
+  left: 30px;
+  background-color: #d6c08d;
+}
+.certificate-b div {
+  padding: 0 30px;
+  width: max-content;
+}
+.certificate-b div h3 {
+  font-size: small;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+.certificate-b div p {
+  line-height: 20px;
+  font-size: small;
+  font-weight: 200;
+  color: #979595;
+}
+.certificate-c {
+  display: flex;
+  padding: 40px 0;
+}
+.certificate-c div {
+  padding: 0 30px;
+}
+.certificate-c div h3 {
+  font-size: small;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+.certificate-c div p {
+  line-height: 20px;
+  font-size: small;
+  font-weight: 200;
+  color: #979595;
+}
+.certificate-c img {
+  width: 200px;
+  height: fit-content;
+} */
+
+/* ------------------------------------------------------------------------------------DU AN----------------------------------------------------------------- */
+.text-bg-orange {
+  color: #ffffff !important;
+  background-color: rgb(255, 119, 0) !important;
+}
+#project .user-lamp {
+  display: flex;
+}
+/* #project h1 {
+  font-weight: 100;
+  padding: 40px 215px;
+}
+.container-project {
+  margin-bottom: 30px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 335px);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 40px;
+}
+
+.project-a {
+  height: 10px;
+}
+
+.project-a img,
+.project-b img,
+.project-c img {
+  width: 21em;
+  height: 11em;
+}
+
+.project-a .table-1:last-child,
+.project-c .table-1:last-child {
+  padding-bottom: 30px;
+}
+
+.project-content-a {
+  border: 1px solid #b1aeae;
+  font-size: x-small;
+  padding: 10px 20px;
+}
+.project-content-a h2 {
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 0;
+}
+.project-content-b {
+  border: 1px solid #b1aeae;
+  display: flex;
+  font-size: smaller;
+  padding: 10px 20px;
+}
+
+.project-content-b span {
+  background-color: rgb(255, 119, 0);
+  color: white;
+  border-radius: 10px;
+  padding: 3px 10px 3px 10px;
+  font-size: 10px;
+  height: fit-content;
+}
+
+.project-content-b p {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.project-content-b i {
+  padding-right: 5px;
+  color: #b1aeae;
+}
+
+.table-project {
+  font-size: x-small;
+  font-weight: 100;
+  color: #b1aeae;
+  text-align: left;
+}
+
+.table-1 {
+  font-size: small;
+  padding: 10px;
+  border: 1px solid #b1aeae;
+  display: flex;
+}
+.table-1 p:first-child {
+  width: 80px;
+  margin-bottom: 0;
+}
+.table-1 p:last-child {
+  width: 235px;
+  margin-bottom: 0;
+} */
+
+/*------------------------------------------------------------------------- FOOTER------------------------------------------------------------------------ */
+
+/* .container-footer ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 40px;
+  margin-bottom: 0;
+}
+.container-footer li {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+.container-footer li i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+.container-footer p {
+  display: grid;
+  align-content: center;
+  margin-bottom: 0;
+}
+.container-footer a {
+  text-decoration: none;
+  color: #777373;
+} */
+.border-around {
+  border: 8px solid blue;
+}
